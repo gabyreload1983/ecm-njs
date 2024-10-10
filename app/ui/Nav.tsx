@@ -34,7 +34,7 @@ export default function Nav() {
             </div>
           </div>
           <div className="hidden sm:block">
-            <div className="flex">
+            <div className="flex gap-2">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
